@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+	font-family: 'poppins',sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847__340.jpg) ;
+}
+:root {
+	--main color:#3c5882;
+}
+.theme-color{
+        color: var(--main-color);
+}
+button.btn{
+	background-color:var(--main-color);
+}
