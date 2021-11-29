@@ -1,0 +1,22 @@
+-- create table actor(
+-- id serial primary key,
+-- first_name varchar(50) NOT NULL,
+-- last_name varchar(50) NOT NULL,
+-- number_of_oscars numeric
+-- )
+
+-- insert into actor(first_name,last_name,number_of_oscars) values
+-- ('George','Clooney',6);
+-- insert into actor(first_name,last_name,number_of_oscars) values
+-- ('Anna','Hathaway',7);
+-- insert into actor(first_name,last_name,number_of_oscars) values
+-- ('Helena','Carter',4)
+-- insert into actor(first_name,last_name,number_of_oscars) values
+-- ('Brad','Pitt',5),('Leonardo','DiCaprio',8),('Tom','Hanks',2)
+-- insert into actor(first_name,last_name,number_of_oscars) value
+-- SELECT * FROM actor;
+
+-- SELECT * FROM actor LIMIT 4;
+-- SELECT * FROM actor order by last_name DESC limit 4
+-- SELECT * FROM actor where first_name ilike '%E%'
+-- SELECT * FROM actor WHERE number_oscars >= 5
